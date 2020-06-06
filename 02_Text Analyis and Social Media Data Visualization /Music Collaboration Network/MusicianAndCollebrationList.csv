@@ -1,0 +1,38 @@
+ID_Musician,Musician,ID_Collaboration,Collaboration,Song_Name
+M01,Drake ,C01,Rihanna ,Work
+M01,Drake ,C01,Rihanna ,What's my name
+M01,Drake ,C02,Lil Wayne,She Will
+M02,Billie Eilish,M03,Justin Bieber,Bad Guy 
+M02,Billie Eilish,C04,Khalid ,Lovely
+M03,Justin Bieber,C05,Post Malone,déjà vu
+M03,Justin Bieber,M07,Chris Brown,Next to You
+M03,Justin Bieber,M02,Billie Eilish,Bad Guy 
+M03,Justin Bieber,C08,David Guetta,2U
+M04,BTS,C09,Steven Aoki,Waste It On Me
+M04,BTS,C10,Nicki Minaj,Idol
+M04,BTS,C11,Chainsmokers,Best Of Me
+M05,Ed Sheeran,C12,Tori Kelly,I Was Made For Loving You
+M05,Ed Sheeran,C13,Rudimental,Bloodstream
+M05,Ed Sheeran,C14,The Weeknd,Dark Times
+M06,Shawn Mendes,C15,Camila Cabello,Señorita
+M06,Shawn Mendes,C16, Julia Michaels,Like to Be You
+M06,Shawn Mendes,C04,Khalid ,Youth
+M07,Chris Brown,M03,Justin Bieber,Bad Guy 
+M07,Chris Brown,C02,Lil Wayne,I can only imagine
+M07,Chris Brown,C08,David Guetta,I can only imagine
+M08,Taylor Swift,M05,Ed Sheeran,Everything Has Changed
+M08,Taylor Swift,C03,B.o.B.,Both of Us
+M08,Taylor Swift,C06,Imogen Heap,Clean
+M09,Halsey,C11,Chainsmokers,Closer
+M09,Halsey,C07,G-Eazy,Him & I 
+M09,Halsey,C17,Lauren Jauregui,Strangers
+M10,Lady Gaga,C18,Beyonce,Telephone
+M10,Lady Gaga,C19,Tony Bennett,The Lady Is a Tramp
+M10,Lady Gaga,C20,New Kids on the Block,Big Girl Now
+M01,Drake ,C21,Justin Timberlake,Cabaret
+M10,Lady Gaga,C21,Justin Timberlake,3-Way
+M10,Lady Gaga,C22,The Lone Island,3-Way
+M01,Drake ,C10,Nicki Minaj,Only
+M05,Ed Sheeran,C18,Beyonce,Perfect Duet
+C08,David Guetta,C02,Lil Wayne,I can only imagine
+C21,Justin Timberlake,C22,The Lone Island,3-Way
