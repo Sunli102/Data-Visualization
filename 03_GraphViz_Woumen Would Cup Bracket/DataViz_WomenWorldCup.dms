@@ -1,0 +1,100 @@
+# Create a network visualization of the 2019 Women's World Cup Bracket using GraphViz
+# Each node should be contain the names of the countries and the score
+# There must be edges with arrows pointing from one stage to the next
+# Submit the dot script file and a PDF file of the figure
+
+
+digraph my_graph{
+
+graph [fontsize=15 labelloc="t" label=<<B>2019 Women's World Cup Bracket</B>> splines=true overlap=false rankdir = "LR" ranksep=1 ];
+
+
+subgraph cluster_0{
+      label = <<B>ROUND OF 16</B>>
+      fillcolor = "grey86:aliceblue"   
+      style = "filled"
+    
+      
+  "M37" [ style = "filled, bold" penwidth = 1 fillcolor = "white"  shape = "Mrecord" label =<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td bgcolor="grey" align="center" colspan="2"><font color="blue"> FT-PENS    Match:37 </font></td></tr><tr><td align="left" port="r0"> Norway           1&#40;4&#41; </td></tr><tr><td align="left" port="r1"><font color="grey46"> Australia          1&#40;1&#41; </font></td></tr></table>> ];
+    "M39" [ style = "filled, bold" penwidth = 1 fillcolor = "white"  shape = "Mrecord" label =<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td bgcolor="grey" align="center" colspan="2"><font color="blue"> FT    Match:39 </font></td></tr><tr><td align="left" port="r0">England             3 </td></tr><tr><td align="left" port="r1"><font color="grey46">Cameroon         0 </font></td></tr></table>> ];
+
+
+ "M40" [ style = "filled, bold" penwidth = 1 fillcolor = "white"  shape = "Mrecord" label =<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td bgcolor="grey" align="center" colspan="2"><font color="blue"> AET    Match:40 </font></td></tr><tr><td align="left" port="r0"> France             2 </td></tr><tr><td align="left" port="r1"><font color="grey46"> Brazil               1 </font></td></tr></table>> ];
+    "M41" [ style = "filled, bold" penwidth = 1 fillcolor = "white"  shape = "Mrecord" label =<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td bgcolor="grey" align="center" colspan="2"><font color="blue"> FT    Match:41 </font></td></tr><tr><td align="left" port="r0"><font color="grey46">Spain                1 </font></td></tr><tr><td align="left" port="r1">United States    2 </td></tr></table>> ]; 
+
+
+ "M43" [ style = "filled, bold" penwidth = 1 fillcolor = "white"  shape = "Mrecord" label =<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td bgcolor="grey" align="center" colspan="2"><font color="blue"> FT    Match:43 </font></td></tr><tr><td align="left" port="r0">Italy                2 </td></tr><tr><td align="left" port="r1"><font color="grey46">China              0 </font></td></tr></table>> ];
+    "M44" [ style = "filled, bold" penwidth = 1 fillcolor = "white"  shape = "Mrecord" label =<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td bgcolor="grey" align="center" colspan="2"><font color="blue"> FT    Match:44 </font></td></tr><tr><td align="left" port="r0">Netherlands     2 </td></tr><tr><td align="left" port="r1"><font color="grey46">Japan              1 </font></td></tr></table>> ];
+
+
+    "M38" [ style = "filled, bold" penwidth = 1 fillcolor = "white"  shape = "Mrecord" label =<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td bgcolor="grey" align="center" colspan="2"><font color="blue"> FT    Match:38 </font></td></tr><tr><td align="left" port="r0">Germany         3 </td></tr><tr><td align="left" port="r1"><font color="grey46">Nigeria            0 </font></td></tr></table>> ];
+    "M42" [ style = "filled, bold" penwidth = 1 fillcolor = "white"  shape = "Mrecord" label =<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td bgcolor="grey" align="center" colspan="2"><font color="blue"> FT    Match:42 </font></td></tr><tr><td align="left" port="r0">Sweden           1 </td></tr><tr><td align="left" port="r1"><font color="grey46">Canada           0 </font></td></tr></table>> ];
+
+}
+
+subgraph cluster_1{
+     label = <<B>QUARTER FINALS</B>>
+     fillcolor = "grey86:aliceblue"    
+      style = "filled"
+      
+
+    "Q1" [ style = "filled, bold" penwidth = 1 fillcolor = "white"  shape = "Mrecord" label =<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td bgcolor="grey" align="center" colspan="2"><font color="blue"> FT    Match:45 </font></td></tr><tr><td align="left" port="r0"><font color="grey46">Norway       0  </font></td></tr><tr><td align="left" port="r1">England       3 </td></tr></table>> ];
+    "Q2" [ style = "filled, bold" penwidth = 1 fillcolor = "white"  shape = "Mrecord" label =<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td bgcolor="grey" align="center" colspan="2"><font color="blue"> FT    Match:46 </font></td></tr><tr><td align="left" port="r0"><font color="grey46">France              1 </font></td></tr><tr><td align="left" port="r1">United States    2 </td></tr></table>> ];
+
+
+    "Q3" [ style = "filled, bold" penwidth = 1 fillcolor = "white"  shape = "Mrecord" label =<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td bgcolor="grey" align="center" colspan="2"><font color="blue"> FT    Match:47 </font></td></tr><tr><td align="left" port="r0"><font color="grey46">Italy                    0 </font></td></tr><tr><td align="left" port="r1">Netherlands         2 </td></tr></table>> ];
+    "Q4" [ style = "filled, bold" penwidth = 1 fillcolor = "white"  shape = "Mrecord" label =<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td bgcolor="grey" align="center" colspan="2"><font color="blue"> FT    Match:48 </font></td></tr><tr><td align="left" port="r0"><font color="grey46">Germany             1 </font></td></tr><tr><td align="left" port="r1">Swedan               2</td></tr></table>> ];
+
+}
+
+subgraph cluster_2{
+      label =<<B>SEMIFINALS</B>>
+     fillcolor = "grey86:aliceblue"     
+      style = "filled" 
+
+    "S1" [ style = "filled, bold" penwidth = 1 fillcolor = "white"  shape = "Mrecord" label =<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td bgcolor="grey" align="center" colspan="2"><font color="blue"> FT    Match:49 </font></td></tr><tr><td align="left" port="r0"><font color="grey46">England           1 </font></td></tr><tr><td align="left" port="r1">United States   2 </td></tr></table>> ];
+    "S2" [ style = "filled, bold" penwidth = 1 fillcolor = "white"  shape = "Mrecord" label =<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td bgcolor="grey" align="center" colspan="2"><font color="blue"> AET    Match:50 </font></td></tr><tr><td align="left" port="r0">Netherlands         1 </td></tr><tr><td align="left" port="r1"><font color="grey46">Sweden               0 </font></td></tr></table>> ];
+}
+
+subgraph cluster_3{
+      label =<<B>FINAL</B>>
+     fillcolor = "grey86:aliceblue"   
+      style = "filled"
+      
+     subgraph cluster_4{
+	 label = "Third Place";
+    "T1" [ style = "filled, bold" penwidth = 1 fillcolor = "white"  shape = "Mrecord" label =<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td bgcolor="grey" align="center" colspan="2"><font color="blue"> FT    ThirdPlace </font></td></tr><tr><td align="left" port="r0"><font color="grey46">England            1 </font></td></tr><tr><td align="left" port="r1">Swedan            2 </td></tr></table>> ];
+     }
+     subgraph cluster_5{
+     	 label = "Final";
+   "F1" [ style = "filled, bold" penwidth = 1 fillcolor = "white"  shape = "Mrecord" label =<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td bgcolor="grey" align="center" colspan="2"><font color="blue"> FT    Final </font></td></tr><tr><td align="left" port="r0">United States    2 </td></tr><tr><td align="left" port="r1"><font color="grey46">Netherlands      0 </font></td></tr></table>> ];
+   }	
+}
+
+
+
+M37 -> Q1  [style=bold,color=blue];
+M39 -> Q1  [style=bold,color=blue];
+
+M40 -> Q2  [style=bold,color=blue];
+M41 -> Q2  [style=bold,color=blue];
+
+M43 -> Q3  [style=bold,color=blue];
+M44 -> Q3  [style=bold,color=blue];
+
+M38 -> Q4  [style=bold,color=blue];
+M42 -> Q4  [style=bold,color=blue];
+
+Q1 -> S1  [style=bold,color=blue];
+Q2 -> S1  [style=bold,color=blue];
+
+Q3 -> S2  [style=bold,color=blue];
+Q4 -> S2  [style=bold,color=blue];
+
+S1 -> T1  [style=bold,color=blue];
+S2 -> T1  [style=bold,color=blue];
+
+S1 -> F1  [style=bold,color=blue];
+S2 -> F1  [style=bold,color=blue];
+}
+
